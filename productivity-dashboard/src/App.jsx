@@ -1,12 +1,12 @@
 import { useState } from "react";
 import "./App.css";
-
+import useLocalStorage from "./hooks/useLocalStorage";
 function App() {
-  const [count, setCount] = useState(0);
-
+  const [tasks, setTasks] = useLocalStorage("tasks", []);
   return (
     <>
-      <div>Productivity Dashboard</div>
+      <h1>Productivity Dashboard</h1>
+      <pre>{JSON.stringify(tasks,null,2)}</pre>
     </>
   );
 }

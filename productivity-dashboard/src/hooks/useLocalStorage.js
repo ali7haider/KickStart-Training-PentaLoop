@@ -17,3 +17,5 @@ function useLocalStorage(key, intialValue) {
 
   return [state, setState];
 }
+
+export default useLocalStorage;
