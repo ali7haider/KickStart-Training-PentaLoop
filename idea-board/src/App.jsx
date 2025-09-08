@@ -1,8 +1,7 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
 
+import "./App.css";
+import Header from "./components/Header";
+import Note from "./components/Note";
 function App() {
   const boardTitle = "My IdeaBoard";
   const ideas = [
@@ -14,12 +13,10 @@ function App() {
   return (
     <>
       <div className="app">
-        <header className="app-header">{boardTitle}</header>
+        <Header title={boardTitle} />
         <main className="board">
           {ideas.map((idea) => (
-            <div id={idea.id} className="note">
-              <p>{idea.text}</p>
-            </div>
+            <Note key={idea.id} text={idea.text} />
           ))}
         </main>
       </div>
