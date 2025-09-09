@@ -1,6 +1,6 @@
 import TaskItem from "./TaskItem";
-
-export default function TaskList({ tasks, onToggle, onDelete }) {
+import React from "react";
+function TaskList({ tasks, onToggle, onDelete }) {
   if (!tasks.length) {
     return <p>No tasks — add one!</p>;
   }
@@ -18,3 +18,4 @@ export default function TaskList({ tasks, onToggle, onDelete }) {
     </ul>
   );
 }
+export default React.memo(TaskList);
