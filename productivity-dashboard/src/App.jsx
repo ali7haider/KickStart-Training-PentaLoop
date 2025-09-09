@@ -4,6 +4,8 @@ import AddTaskForm from "./components/AddTaskForm";
 import useLocalStorage from "./hooks/useLocalStorage";
 import TaskList from "./components/TaskList";
 import ProgressBar from "./components/ProgressBar";
+import ThemeProvider from "./contexts/ThemeContext";
+import ThemeSwitcher from "./components/ThemeSwitcher";
 function App() {
   const [tasks, setTasks] = useLocalStorage("tasks", []);
 
@@ -26,12 +28,13 @@ function App() {
     [setTasks]
   );
   return (
-    <>
+    <ThemeProvider>
       <h1>Productivity Dashboard</h1>
+      <ThemeSwitcher />
       <AddTaskForm onAddTask={onAddTask} />
       <ProgressBar tasks={tasks} />
       <TaskList tasks={tasks} onToggle={onToggle} onDelete={onDelete} />
-    </>
+    </ThemeProvider>
   );
 }
 
