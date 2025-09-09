@@ -3,6 +3,7 @@ import "./App.css";
 import AddTaskForm from "./components/AddTaskForm";
 import useLocalStorage from "./hooks/useLocalStorage";
 import TaskList from "./components/TaskList";
+import ProgressBar from "./components/ProgressBar";
 function App() {
   const [tasks, setTasks] = useLocalStorage("tasks", []);
 
@@ -28,6 +29,7 @@ function App() {
     <>
       <h1>Productivity Dashboard</h1>
       <AddTaskForm onAddTask={onAddTask} />
+      <ProgressBar tasks={tasks} />
       <TaskList tasks={tasks} onToggle={onToggle} onDelete={onDelete} />
     </>
   );
