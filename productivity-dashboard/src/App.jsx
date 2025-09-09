@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useCallback, useState } from "react";
 import "./App.css";
 import AddTaskForm from "./components/AddTaskForm";
 import useLocalStorage from "./hooks/useLocalStorage";
@@ -6,15 +6,24 @@ import TaskList from "./components/TaskList";
 function App() {
   const [tasks, setTasks] = useLocalStorage("tasks", []);
 
-  const onAddTask = (task) => setTasks((prev) => [task, ...prev]);
-  const onToggle = (id) => {
-    setTasks((prev) =>
-      prev.map((t) => (t.id === id ? { ...t, completed: !t.completed } : t))
-    );
-  };
-  const onDelete = (id) => {
-    setTasks((prev) => prev.filter((t) => t.id !== id));
-  };
+  const onAddTask = useCallback(
+    (task) => setTasks((prev) => [task, ...prev]),
+    [setTasks]
+  );
+  const onToggle = useCallback(
+    (id) => {
+      setTasks((prev) =>
+        prev.map((t) => (t.id === id ? { ...t, completed: !t.completed } : t))
+      );
+    },
+    [setTasks]
+  );
+  const onDelete = useCallback(
+    (id) => {
+      setTasks((prev) => prev.filter((t) => t.id !== id));
+    },
+    [setTasks]
+  );
   return (
     <>
       <h1>Productivity Dashboard</h1>
