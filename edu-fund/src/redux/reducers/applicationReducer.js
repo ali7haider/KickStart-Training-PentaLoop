@@ -9,7 +9,7 @@ const initialState = {
       firstName: "",
       lastName: "",
       email: "",
-      dob: "",
+      password: "",
     },
     step2: {
       gpa: "",

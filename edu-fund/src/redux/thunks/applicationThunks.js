@@ -2,6 +2,7 @@ import {
   submitApplicationFailure,
   submitApplicationRequest,
   submitApplicationSuccess,
+  resetFormData
 } from "../actions/applicationActions";
 
 export const submitApplication = () => {
@@ -12,7 +13,8 @@ export const submitApplication = () => {
     setTimeout(() => {
       console.log("Form Data: ", formData);
       dispatch(submitApplicationSuccess(formData));
-    }, 2000);
+      dispatch(resetFormData());
+    }, 1000);
     // dispatch(submitApplicationFailure(error))
   };
 };
