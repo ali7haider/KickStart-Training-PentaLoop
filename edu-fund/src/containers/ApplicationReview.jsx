@@ -3,14 +3,13 @@ import React from 'react'
 const ApplicationReview = ({ data, onPrevious, onSubmit }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
-    onSubmit(); // Final submission callback
+    onSubmit();
   };
 
   return (
     <form onSubmit={handleSubmit}>
       <h2>Review Your Application</h2>
 
-      {/* Personal Details */}
       <section>
         <h3>Personal Details</h3>
         <p><strong>First Name:</strong> {data.step1.firstName}</p>
@@ -18,7 +17,6 @@ const ApplicationReview = ({ data, onPrevious, onSubmit }) => {
         <p><strong>Email:</strong> {data.step1.email}</p>
       </section>
 
-      {/* Academic Details */}
       <section>
         <h3>Academic Details</h3>
         <p><strong>GPA:</strong> {data.step2.gpa}</p>
@@ -26,7 +24,6 @@ const ApplicationReview = ({ data, onPrevious, onSubmit }) => {
         <p><strong>Institution:</strong> {data.step2.institution}</p>
       </section>
 
-      {/* Documents */}
       <section>
         <h3>Documents</h3>
         <p><strong>Essay:</strong> {data.step3.essay}</p>

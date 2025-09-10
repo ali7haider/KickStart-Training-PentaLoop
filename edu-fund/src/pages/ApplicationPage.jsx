@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import PersonalDetailsForm from "../components/forms/PersonalDetailForm";
 import AcademicDetailsForm from "../components/forms/AcademicDetailForm";
 import DocumentForm from "../components/forms/DocumentForm";
-import ApplicationReview from "../components/forms/ApplicationReview";
+import ApplicationReview from "../containers/ApplicationReview";
 import {
   nextStep,
   prevStep,
