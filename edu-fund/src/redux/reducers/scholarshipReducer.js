@@ -18,6 +18,7 @@ const scholarshipReducer = (state = initialState, action) => {
     case types.FETCH_SCHOLARSHIPS_SUCCESS:
       return {
         ...state,
+        loading:false,
         items: action.payload,
       };
     case types.FETCH_SCHOLARSHIPS_FAILURE:
