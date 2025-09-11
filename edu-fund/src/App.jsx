@@ -2,8 +2,10 @@ import { useState } from "react";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import { ConfigProvider, Layout, theme as antdTheme } from "antd";
-import { lightTheme, darkTheme } from "./themes/theme";
-import { useSelector, useDispatch } from "react-redux";
+import { darkTheme } from "./themes/darkTheme";
+import { lightTheme } from "./themes/lightTheme";
+
+import { useSelector } from "react-redux";
 import HomePage from "./pages/HomePage";
 import ScholarshipPage from "./pages/ScholarshipPage";
 import ApplicationPage from "./pages/ApplicationPage";
