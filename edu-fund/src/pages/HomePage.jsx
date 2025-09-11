@@ -1,7 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import Hero from "../components/ui/HomePage/Hero";
-import FeatureCard from "../containers/FeatureContainer";
-import CallToAction from "../components/ui/CallToAction";
+import FeatureSection from "../containers/FeatureContainer";
 const HomePage = () => {
   const navigate = useNavigate();
 
@@ -20,7 +19,7 @@ const HomePage = () => {
         onBrowseClick={handleNavigateToScholarships}
         onApplyClick={handleStartApplication}
       />
-      <FeatureCard />
+      <FeatureSection />
     </>
   );
 };

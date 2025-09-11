@@ -81,7 +81,5 @@ const FeaturesSection = () => {
   );
 };
 
-// FeatureCard Component
-
 
 export default FeaturesSection;
