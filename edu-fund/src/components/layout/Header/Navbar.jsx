@@ -13,7 +13,7 @@ const { Title } = Typography;
 
 const navItems = [
   { key: "/", label: "Home", path: "/" },
-  { key: "/about", label: "About", path: "/about" },
+  { key: "/scholarships", label: "Scholarships", path: "/scholarships" },
   { key: "/services", label: "Services", path: "/services" },
   { key: "/contact", label: "Contact", path: "/contact" },
 ];
