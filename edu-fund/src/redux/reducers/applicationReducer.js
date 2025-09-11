@@ -1,4 +1,4 @@
-import * as types from "../actions/actionTypes";
+import {SAVE_FORM_DATA,NEXT_STEP,PREV_STEP,SUBMIT_APPLICATION_FAILURE,SUBMIT_APPLICATION_SUCCESS,SUBMIT_APPLICATION_START,RESET_FORM_DATA} from "../actions/actionTypes";
 
 const initialState = {
   currentStep: 1,
@@ -26,7 +26,7 @@ const initialState = {
 
 const applicationReducer = (state = initialState, action) => {
   switch (action.type) {
-    case types.SAVE_FORM_DATA:
+    case SAVE_FORM_DATA:
       return {
         ...state,
         formData: {
@@ -37,34 +37,34 @@ const applicationReducer = (state = initialState, action) => {
           },
         },
       };
-    case types.NEXT_STEP:
+    case NEXT_STEP:
       return {
         ...state,
         currentStep: state.currentStep + 1,
       };
-    case types.PREV_STEP:
+    case PREV_STEP:
       return {
         ...state,
         currentStep: state.currentStep - 1,
       };
-    case types.SUBMIT_APPLICATION_START:
+    case SUBMIT_APPLICATION_START:
       return {
         ...state,
         isSubmitting: true,
         submitError: null,
       };
-    case types.SUBMIT_APPLICATION_SUCCESS:
+    case SUBMIT_APPLICATION_SUCCESS:
       return {
         ...state,
         isSubmitting: false,
       };
-    case types.SUBMIT_APPLICATION_FAILURE:
+    case SUBMIT_APPLICATION_FAILURE:
       return {
         ...state,
         isSubmitting: false,
         submitError: action.payload,
       };
-    case types.RESET_FORM_DATA:
+    case RESET_FORM_DATA:
       return {
         ...initialState,
       };

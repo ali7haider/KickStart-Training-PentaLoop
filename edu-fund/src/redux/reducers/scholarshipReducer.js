@@ -1,4 +1,4 @@
-import * as types from "../actions/actionTypes";
+import {FETCH_SCHOLARSHIPS_FAILURE,FETCH_SCHOLARSHIPS_START,FETCH_SCHOLARSHIPS_SUCCESS} from "../actions/actionTypes";
 
 const initialState = {
   items: [],
@@ -8,20 +8,20 @@ const initialState = {
 
 const scholarshipReducer = (state = initialState, action) => {
   switch (action.type) {
-    case types.FETCH_SCHOLARSHIPS_START:
+    case FETCH_SCHOLARSHIPS_START:
       return {
         ...state,
         loading: true,
         error: null,
         items: [],
       };
-    case types.FETCH_SCHOLARSHIPS_SUCCESS:
+    case FETCH_SCHOLARSHIPS_SUCCESS:
       return {
         ...state,
         loading:false,
         items: action.payload,
       };
-    case types.FETCH_SCHOLARSHIPS_FAILURE:
+    case FETCH_SCHOLARSHIPS_FAILURE:
       return {
         ...state,
         error: action.payload,
