@@ -2,15 +2,13 @@ import { useState } from "react";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import { ConfigProvider, Layout, theme as antdTheme } from "antd";
-import { darkTheme } from "./themes/darkTheme";
-import { lightTheme } from "./themes/lightTheme";
-
+import { lightTheme, darkTheme } from './themes';
 import { useSelector } from "react-redux";
 import HomePage from "./pages/HomePage";
 import ScholarshipPage from "./pages/ScholarshipPage";
 import ApplicationPage from "./pages/ApplicationPage";
 import { setTheme } from "./redux/actions/themeActions";
-import Header from "./components/ui/Header/Navbar";
+import Header from "./components/layout/Header/Navbar";
 function App() {
   const darkMode = useSelector((state) => state.theme.darkMode);
   const algorithm = darkMode

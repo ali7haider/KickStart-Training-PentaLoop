@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import Hero from "../components/ui/HomePage/Hero";
+import Hero from "../components/home/Hero";
 import FeatureSection from "../containers/FeatureContainer";
 const HomePage = () => {
   const navigate = useNavigate();

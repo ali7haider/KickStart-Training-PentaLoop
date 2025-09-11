@@ -9,7 +9,7 @@ import {
 } from '@ant-design/icons';
 
 const { Title } = Typography;
-import FeatureCard from '../components/ui/HomePage/FeatureCard';
+import FeatureCard from '../components/home/FeatureCard';
 const features = [
   {
     id: 1,

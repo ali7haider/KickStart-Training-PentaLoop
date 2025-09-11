@@ -1,4 +1,3 @@
-// themes/darkTheme.js
 import { baseTheme } from './baseTheme';
 
 export const darkTheme = {
