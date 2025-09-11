@@ -1,13 +1,6 @@
-import { createStore, combineReducers, applyMiddleware } from 'redux';
-import { thunk } from 'redux-thunk';
-import scholarshipsReducer from './reducers/scholarshipReducer';
-import applicationReducer from './reducers/applicationReducer';
-
-const rootReducer = combineReducers({
-  scholarships: scholarshipsReducer,
-  application: applicationReducer,
-});
-
+import { createStore, applyMiddleware } from "redux";
+import { thunk } from "redux-thunk";
+import rootReducer from "./reducers/rootReducer";
 const store = createStore(rootReducer, applyMiddleware(thunk));
 
 export default store;
