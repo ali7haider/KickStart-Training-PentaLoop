@@ -1,60 +1,69 @@
 import { useState } from "react";
+import { Form, Input, Button, Card, Typography, Space } from "antd";
+
+const { Title } = Typography;
 
 const AcademicDetailsForm = ({ data, onSave, onNext, onPrev }) => {
+  const [form] = Form.useForm();
   const [formData, setFormData] = useState(data);
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    onSave("step2", formData);
+  const handleFinish = (values) => {
+    onSave("step2", values);
     onNext();
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <div>
-        <label>GPA:</label>
-        <input
-          name="gpa"
-          value={formData.gpa}
-          onChange={handleChange}
-          placeholder="GPA"
-        />
-      </div>
+    <div style={{ display: "flex", justifyContent: "center", padding: "40px" }}>
+      <Card
+        style={{ width: "100%", maxWidth: 500, borderRadius: 12 }}
+        bordered={false}
+      >
+        <Title level={3} style={{ textAlign: "center", marginBottom: 24 }}>
+          Academic Details
+        </Title>
 
-      <div>
-        <label>Degree:</label>
-        <input
-          name="degree"
-          value={formData.degree}
-          onChange={handleChange}
-          placeholder="Degree"
-        />
-      </div>
+        <Form
+          form={form}
+          layout="vertical"
+          initialValues={formData}
+          onFinish={handleFinish}
+          onValuesChange={(_, allValues) => setFormData(allValues)}
+        >
+          <Form.Item
+            label="GPA"
+            name="gpa"
+            rules={[{ required: true, message: "Please enter your GPA" }]}
+          >
+            <Input placeholder="Enter your GPA" />
+          </Form.Item>
 
-      <div>
-        <label>Institution:</label>
-        <input
-          name="institution"
-          value={formData.institution}
-          onChange={handleChange}
-          placeholder="Institution"
-        />
-      </div>
+          <Form.Item
+            label="Degree"
+            name="degree"
+            rules={[{ required: true, message: "Please enter your degree" }]}
+          >
+            <Input placeholder="Enter your degree (e.g. BSc, MSc)" />
+          </Form.Item>
 
-      <div style={{ marginTop: "1rem" }}>
-        <button type="button" onClick={onPrev}>
-          Previous
-        </button>
-        <button type="submit" style={{ marginLeft: "0.5rem" }}>
-          Next: Document Upload
-        </button>
-      </div>
-    </form>
+          <Form.Item
+            label="Institution"
+            name="institution"
+            rules={[{ required: true, message: "Please enter your institution" }]}
+          >
+            <Input placeholder="Enter your institution name" />
+          </Form.Item>
+
+          <Form.Item>
+            <Space style={{ display: "flex", justifyContent: "space-between" }}>
+              <Button onClick={onPrev}>Previous</Button>
+              <Button type="primary" htmlType="submit">
+                Next: Document Upload
+              </Button>
+            </Space>
+          </Form.Item>
+        </Form>
+      </Card>
+    </div>
   );
 };
 

@@ -54,3 +54,8 @@
 .ant-menu-horizontal .ant-menu-submenu::after {
   display: none !important;
 }
+
+.ant-steps .ant-steps-item-title {
+  padding-inline-end: 24px !important; /* increase spacing */
+  white-space: nowrap; /* prevent wrapping */
+}

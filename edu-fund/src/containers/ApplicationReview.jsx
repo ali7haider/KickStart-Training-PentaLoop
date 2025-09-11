@@ -1,51 +1,87 @@
-import React from 'react'
+import React from "react";
+import { Card, Typography, Descriptions, Button, Space } from "antd";
 
-const ApplicationReview = ({ data, onPrevious, onSubmit }) => {
+const { Title } = Typography;
+
+const ApplicationReview = ({ data, onPrev, onSubmit }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     onSubmit();
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <h2>Review Your Application</h2>
+    <div style={{ display: "flex", justifyContent: "center", padding: "40px" }}>
+      <Card
+        style={{ width: "100%", maxWidth: 700, borderRadius: 12 }}
+        bordered={false}
+      >
+        <Title level={3} style={{ textAlign: "center", marginBottom: 24 }}>
+          Review Your Application
+        </Title>
 
-      <section>
-        <h3>Personal Details</h3>
-        <p><strong>First Name:</strong> {data.step1.firstName}</p>
-        <p><strong>Last Name:</strong> {data.step1.lastName}</p>
-        <p><strong>Email:</strong> {data.step1.email}</p>
-      </section>
+        {/* Personal Details */}
+        <Descriptions
+          title="Personal Details"
+          bordered
+          column={1}
+          size="middle"
+          style={{ marginBottom: 24 }}
+        >
+          <Descriptions.Item label="First Name">
+            {data.step1.firstName}
+          </Descriptions.Item>
+          <Descriptions.Item label="Last Name">
+            {data.step1.lastName}
+          </Descriptions.Item>
+          <Descriptions.Item label="Email">
+            {data.step1.email}
+          </Descriptions.Item>
+        </Descriptions>
 
-      <section>
-        <h3>Academic Details</h3>
-        <p><strong>GPA:</strong> {data.step2.gpa}</p>
-        <p><strong>Degree:</strong> {data.step2.degree}</p>
-        <p><strong>Institution:</strong> {data.step2.institution}</p>
-      </section>
+        {/* Academic Details */}
+        <Descriptions
+          title="Academic Details"
+          bordered
+          column={1}
+          size="middle"
+          style={{ marginBottom: 24 }}
+        >
+          <Descriptions.Item label="GPA">{data.step2.gpa}</Descriptions.Item>
+          <Descriptions.Item label="Degree">
+            {data.step2.degree}
+          </Descriptions.Item>
+          <Descriptions.Item label="Institution">
+            {data.step2.institution}
+          </Descriptions.Item>
+        </Descriptions>
 
-      <section>
-        <h3>Documents</h3>
-        <p><strong>Essay:</strong> {data.step3.essay}</p>
-        <p>
-          <strong>Transcript Uploaded:</strong>{" "}
-          {data.step3.transcriptUploaded ? "Yes" : "No"}
-        </p>
-        <p>
-          <strong>Recommendation Letter Uploaded:</strong>{" "}
-          {data.step3.recommendationLetterUploaded ? "Yes" : "No"}
-        </p>
-      </section>
+        {/* Documents */}
+        <Descriptions
+          title="Documents"
+          bordered
+          column={1}
+          size="middle"
+        >
+          <Descriptions.Item label="Essay">{data.step3.essay}</Descriptions.Item>
+          <Descriptions.Item label="Transcript Uploaded">
+            {data.step3.transcriptUploaded ? "Yes ✅" : "No ❌"}
+          </Descriptions.Item>
+          <Descriptions.Item label="Recommendation Letter Uploaded">
+            {data.step3.recommendationLetterUploaded ? "Yes ✅" : "No ❌"}
+          </Descriptions.Item>
+        </Descriptions>
 
-      <div style={{ marginTop: "1rem" }}>
-        <button type="button" onClick={onPrevious}>
-          Previous
-        </button>
-        <button type="submit" style={{ marginLeft: "0.5rem" }}>
-          Submit Application
-        </button>
-      </div>
-    </form>
+        {/* Actions */}
+        <div style={{ marginTop: 24, textAlign: "center" }}>
+          <Space>
+            <Button onClick={onPrev}>Previous</Button>
+            <Button type="primary" onClick={handleSubmit}>
+              Submit Application
+            </Button>
+          </Space>
+        </div>
+      </Card>
+    </div>
   );
 };
 

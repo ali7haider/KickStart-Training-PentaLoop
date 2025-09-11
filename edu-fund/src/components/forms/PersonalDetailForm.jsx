@@ -1,65 +1,77 @@
 import { useState } from "react";
+import { Form, Input, Button, Card, Typography } from "antd";
+
+const { Title } = Typography;
 
 const PersonalDetailsForm = ({ data, onSave, onNext }) => {
+  const [form] = Form.useForm(); 
   const [formData, setFormData] = useState(data);
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    onSave("step1", formData);
+  const handleFinish = (values) => {
+    onSave("step1", values);
     onNext();
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <div>
-        <label>First Name:</label>
-        <input
-          name="firstName"
-          value={formData.firstName}
-          onChange={handleChange}
-          placeholder="First Name"
-        />
-      </div>
+    <div style={{ display: "flex", justifyContent: "center", padding: "40px" }}>
+      <Card
+        style={{ width: "100%", maxWidth: 500, borderRadius: 12 }}
+        bordered={false}
+      >
+        <Title level={3} style={{ textAlign: "center", marginBottom: 24 }}>
+          Personal Details
+        </Title>
 
-      <div>
-        <label>Last Name:</label>
-        <input
-          name="lastName"
-          value={formData.lastName}
-          onChange={handleChange}
-          placeholder="Last Name"
-        />
-      </div>
+        <Form
+          form={form}
+          layout="vertical"
+          initialValues={formData}
+          onFinish={handleFinish}
+          onValuesChange={(_, allValues) => setFormData(allValues)}
+        >
+          <Form.Item
+            label="First Name"
+            name="firstName"
+            rules={[{ required: true, message: "Please enter your first name" }]}
+          >
+            <Input placeholder="Enter your first name" />
+          </Form.Item>
 
-      <div>
-        <label>Email:</label>
-        <input
-          name="email"
-          type="email"
-          value={formData.email}
-          onChange={handleChange}
-          placeholder="Email"
-        />
-      </div>
+          <Form.Item
+            label="Last Name"
+            name="lastName"
+            rules={[{ required: true, message: "Please enter your last name" }]}
+          >
+            <Input placeholder="Enter your last name" />
+          </Form.Item>
 
-      <div>
-        <label>Password:</label>
-        <input
-          name="password"
-          type="password"
-          value={formData.password}
-          onChange={handleChange}
-          placeholder="Password"
-        />
-      </div>
+          <Form.Item
+            label="Email"
+            name="email"
+            rules={[
+              { required: true, message: "Please enter your email" },
+              { type: "email", message: "Please enter a valid email" },
+            ]}
+          >
+            <Input placeholder="Enter your email" />
+          </Form.Item>
 
-      <button type="submit">Next: Academic Details</button>
-    </form>
+          <Form.Item
+            label="Password"
+            name="password"
+            rules={[{ required: true, message: "Please enter your password" }]}
+          >
+            <Input.Password placeholder="Enter a password" />
+          </Form.Item>
+
+          <Form.Item>
+            <Button type="primary" htmlType="submit" block>
+              Next: Academic Details
+            </Button>
+          </Form.Item>
+        </Form>
+      </Card>
+    </div>
   );
 };
 

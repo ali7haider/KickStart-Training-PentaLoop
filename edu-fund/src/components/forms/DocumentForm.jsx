@@ -1,67 +1,92 @@
 import { useState } from "react";
+import { Form, Input, Upload, Button, Card, Typography, Space, message } from "antd";
+import { UploadOutlined } from "@ant-design/icons";
+
+const { Title } = Typography;
 
 const DocumentForm = ({ data, onSave, onNext, onPrev }) => {
+  const [form] = Form.useForm();
   const [formData, setFormData] = useState(data);
 
-  const handleChange = (e) => {
-    const { name, type, checked, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: type === "checkbox" ? checked : value,
-    });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleFinish = () => {
     onSave("step3", formData);
     onNext();
   };
 
+  const handleFileChange = (fieldName, { file }) => {
+    if (file.status !== "removed") {
+      setFormData({ ...formData, [fieldName]: true });
+      message.success(`${file.name} selected`);
+    } else {
+      setFormData({ ...formData, [fieldName]: false });
+      message.info(`${fieldName} removed`);
+    }
+  };
+
   return (
-    <form onSubmit={handleSubmit}>
-      <div>
-        <label>Essay:</label>
-        <input
-          type="text"
-          name="essay"
-          value={formData.essay}
-          onChange={handleChange}
-        />
-      </div>
+    <div style={{ display: "flex", justifyContent: "center", padding: "40px" }}>
+      <Card
+        style={{ width: "100%", maxWidth: 500, borderRadius: 12 }}
+        bordered={false}
+      >
+        <Title level={3} style={{ textAlign: "center", marginBottom: 24 }}>
+          Document Upload
+        </Title>
 
-      <div>
-        <label>
-          <input
-            type="checkbox"
-            name="transcriptUploaded"
-            checked={formData.transcriptUploaded}
-            onChange={handleChange}
-          />
-          Transcript Uploaded
-        </label>
-      </div>
+        <Form
+          form={form}
+          layout="vertical"
+          initialValues={formData}
+          onFinish={handleFinish}
+        >
+          <Form.Item
+            label="Essay"
+            name="essay"
+            rules={[{ required: true, message: "Please enter your essay" }]}
+          >
+            <Input.TextArea
+              rows={4}
+              placeholder="Write your essay here..."
+              onChange={(e) =>
+                setFormData({ ...formData, essay: e.target.value })
+              }
+              value={formData.essay}
+            />
+          </Form.Item>
 
-      <div>
-        <label>
-          <input
-            type="checkbox"
-            name="recommendationLetterUploaded"
-            checked={formData.recommendationLetterUploaded}
-            onChange={handleChange}
-          />
-          Recommendation Letter Uploaded
-        </label>
-      </div>
+          <Form.Item label="Transcript">
+            <Upload
+              beforeUpload={() => false} // prevent auto-upload
+              onChange={(info) => handleFileChange("transcriptUploaded", info)}
+              maxCount={1}
+            >
+              <Button icon={<UploadOutlined />}>Select Transcript</Button>
+            </Upload>
+          </Form.Item>
 
-      <div style={{ marginTop: "1rem" }}>
-        <button type="button" onClick={onPrev}>
-          Previous
-        </button>
-        <button type="submit" style={{ marginLeft: "0.5rem" }}>
-          Next: Review Application
-        </button>
-      </div>
-    </form>
+          <Form.Item label="Recommendation Letter">
+            <Upload
+              beforeUpload={() => false}
+              onChange={(info) =>
+                handleFileChange("recommendationLetterUploaded", info)
+              }
+              maxCount={1}
+            >
+              <Button icon={<UploadOutlined />}>Select Recommendation Letter</Button>
+            </Upload>
+          </Form.Item>
+
+          <Form.Item>
+            <Space style={{ display: "flex", justifyContent: "space-between" }}>
+              <Button onClick={onPrev}>Previous</Button>
+              <Button type="primary" htmlType="submit">
+                Next: Review Application
+              </Button>
+            </Space>
+          </Form.Item>
+        </Form>
+      </Card>
+    </div>
   );
 };
 
