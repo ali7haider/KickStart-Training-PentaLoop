@@ -72,7 +72,7 @@ const ScholarshipContainer = ({ scholarships, loading, error }) => {
                 style={{ width: "100%" }}
               >
                 <div>
-                  <h3 style={{ margin: 0, color: "#262626", fontSize: 18 }}>
+                  <h3 style={{ margin: 0,   fontSize: 18 }}>
                     {scholar.name}
                   </h3>
                   {scholar.category && (
@@ -90,8 +90,8 @@ const ScholarshipContainer = ({ scholarships, loading, error }) => {
                   <div
                     style={{ display: "flex", alignItems: "center", gap: 8 }}
                   >
-                    <CalendarOutlined style={{ color: "#8c8c8c" }} />
-                    <span style={{ color: "#595959" }}>
+                    <CalendarOutlined  />
+                    <span >
                       Deadline: {scholar.deadline}
                     </span>
                   </div>
@@ -99,14 +99,14 @@ const ScholarshipContainer = ({ scholarships, loading, error }) => {
                   <div
                     style={{ display: "flex", alignItems: "center", gap: 8 }}
                   >
-                    <DollarOutlined style={{ color: "#8c8c8c" }} />
-                    <span style={{ color: "#595959", fontWeight: 500 }}>
+                    <DollarOutlined  />
+                    <span style={{ fontWeight: 500 }}>
                       Amount: ${scholar.amount.toLocaleString()}
                     </span>
                   </div>
 
                   {scholar.description && (
-                    <p style={{ color: "#595959", margin: 0, fontSize: 14 }}>
+                    <p style={{ margin: 0, fontSize: 14 }}>
                       {scholar.description.length > 100
                         ? `${scholar.description.substring(0, 100)}...`
                         : scholar.description}

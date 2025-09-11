@@ -1,4 +1,4 @@
-import { baseTheme } from './baseTheme';
+import { baseTheme } from "./baseTheme";
 
 export const lightTheme = {
   ...baseTheme,
@@ -23,6 +23,9 @@ export const lightTheme = {
       ...baseTheme.components.Card,
       colorBgContainer: "#ffffff",
       colorBorderSecondary: "#f0f0f0",
+      boxShadow: "none",
+      boxShadowTertiary: "none",
+
     },
     Button: {
       ...baseTheme.components.Button,

@@ -1,4 +1,4 @@
-import { baseTheme } from './baseTheme';
+import { baseTheme } from "./baseTheme";
 
 export const darkTheme = {
   ...baseTheme,
@@ -6,12 +6,13 @@ export const darkTheme = {
     ...baseTheme.token,
     colorPrimary: "#36CFC9",
     colorBgBase: "#141414",
-    colorTextBase: "#E8E8E8",
+    colorTextBase: "#fff",
     colorBorder: "#434343",
     colorBorderSecondary: "#303030",
   },
   components: {
     ...baseTheme.components,
+
     Layout: {
       ...baseTheme.components.Layout,
       headerBg: "#000408",
@@ -21,8 +22,11 @@ export const darkTheme = {
     },
     Card: {
       ...baseTheme.components.Card,
-      colorBgContainer: "#1a1a1a",
+      colorBgContainer: "#050505",
+      colorBorder: "#434343",
       colorBorderSecondary: "#303030",
+
+
     },
     Button: {
       ...baseTheme.components.Button,

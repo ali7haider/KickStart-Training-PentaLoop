@@ -5,13 +5,9 @@ const { Title, Paragraph } = Typography;
 const FeatureCard = ({ title, description, icon }) => {
   return (
     <Card
-      hoverable
       style={{
         height: "100%",
-        border: "none",
         borderRadius: 12,
-        boxShadow: "0 4px 12px rgba(0, 0, 0, 0.08)",
-        transition: "all 0.3s ease",
       }}
       bodyStyle={{
         padding: 32,
@@ -35,7 +31,6 @@ const FeatureCard = ({ title, description, icon }) => {
 
         <Paragraph
           style={{
-            color: "rgba(0, 0, 0, 0.65)",
             margin: 0,
             lineHeight: 1.6,
           }}

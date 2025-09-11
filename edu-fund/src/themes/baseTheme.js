@@ -13,8 +13,7 @@ export const baseTheme = {
       borderRadiusLG: 16,
       padding: 20,
       paddingLG: 24,
-      boxShadow: 'none',
-      boxShadowTertiary: 'none',
+      
     },
     Button: {
       controlHeight: 40,
