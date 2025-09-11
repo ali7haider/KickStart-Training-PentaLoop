@@ -16,21 +16,23 @@ function App() {
     : antdTheme.defaultAlgorithm;
 
   return (
-    <ConfigProvider
-      theme={{
-        ...(darkMode ? darkTheme : lightTheme),
-        algorithm: algorithm,
-      }}
-    >
-      <Layout style={{ minHeight: "100vh" }}>
-        <Header />
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/scholarships" element={<ScholarshipPage />} />
-          <Route path="/apply" element={<ApplicationPage />} />
-        </Routes>
-      </Layout>
-    </ConfigProvider>
+    <div className={darkMode ? "dark-theme" : "light-theme"}>
+      <ConfigProvider
+        theme={{
+          ...(darkMode ? darkTheme : lightTheme),
+          algorithm: algorithm,
+        }}
+      >
+        <Layout style={{ minHeight: "100vh" }}>
+          <Header />
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/scholarships" element={<ScholarshipPage />} />
+            <Route path="/apply" element={<ApplicationPage />} />
+          </Routes>
+        </Layout>
+      </ConfigProvider>
+    </div>
   );
 }
 

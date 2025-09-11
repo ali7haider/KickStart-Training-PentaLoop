@@ -30,6 +30,7 @@ export const darkTheme = {
     colorBgBase: "#141414",
     colorTextBase: "#E8E8E8",
     borderRadius: 6,
+    activeBarHeight: 0,
   },
   components: {
     Layout: {
@@ -47,12 +48,13 @@ export const darkTheme = {
       borderRadius: 6,
       algorithm: true,
     },
-    // Menu: {
-    //   itemBg: "transparent",
-    //   itemColor: "#E8E8E8",
-    //   itemHoverBg: "#2A2A2A",
-    //   itemSelectedBg: "#2A2A2A",
-    //   itemSelectedColor: "#36CFC9",
-    // },
+    Menu: {
+      colorPrimary: "#36CFC9",
+      itemColor: "#E8E8E8",
+      itemHoverBg: "#2A2A2A",
+      itemSelectedBg: "#2A2A2A",
+      itemSelectedColor: "#36CFC9",
+      activeBarHeight: 0,
+    },
   },
 };
