@@ -2,17 +2,24 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #fff;
   padding: 0 20px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   position: sticky;
   top: 0;
   z-index: 1000;
+  margin-bottom: 20px;
 }
 
+.leftSection {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+.rightSection {
+  display: flex;
+  align-items: center;
+}
 .logo {
-  font-weight: 700;
-  color: #000;
-  font-size: 20px;
-  margin-right: 30px;
+  cursor: pointer;
+  margin-left: 20px;
 }

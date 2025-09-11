@@ -7,14 +7,10 @@ import { useSelector, useDispatch } from "react-redux";
 import HomePage from "./pages/HomePage";
 import ScholarshipPage from "./pages/ScholarshipPage";
 import ApplicationPage from "./pages/ApplicationPage";
-import { SET_THEME } from "./redux/actions/actionTypes";
+import { setTheme } from "./redux/actions/themeActions";
 import Header from "./components/ui/Header/Navbar";
 function App() {
   const darkMode = useSelector((state) => state.theme.darkMode);
-  const dispatch = useDispatch();
-  const handleThemeChange = (checked) => {
-    dispatch(SET_THEME(checked));
-  };
   const algorithm = darkMode
     ? antdTheme.darkAlgorithm
     : antdTheme.defaultAlgorithm;
@@ -27,7 +23,7 @@ function App() {
       }}
     >
       <Layout style={{ minHeight: "100vh" }}>
-        <Header onThemeChange={handleThemeChange} darkMode={darkMode} />
+        <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/scholarships" element={<ScholarshipPage />} />

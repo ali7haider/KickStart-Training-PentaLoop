@@ -38,35 +38,34 @@ const HomePage = () => {
   ];
 
   return (
+    <>
+      <Hero
+        title="Fund Your Future"
+        subtitle="Find and apply for scholarships all in one place."
+        onBrowseClick={handleNavigateToScholarships}
+        onApplyClick={handleStartApplication}
+      />
 
-      <div style={{ backgroundColor: "#fff" }}>
-        <Hero
-          title="Fund Your Future"
-          subtitle="Find and apply for scholarships all in one place."
-          onBrowseClick={handleNavigateToScholarships}
-          onApplyClick={handleStartApplication}
-        />
+      <section className="features-section">
+        <h2>Why Use EduFund?</h2>
+        <div className="features-grid">
+          {features.map((feature) => (
+            <FeatureCard
+              key={feature.id}
+              title={feature.title}
+              description={feature.description}
+              icon={feature.icon}
+            />
+          ))}
+        </div>
+      </section>
 
-        <section className="features-section">
-          <h2>Why Use EduFund?</h2>
-          <div className="features-grid">
-            {features.map((feature) => (
-              <FeatureCard
-                key={feature.id}
-                title={feature.title}
-                description={feature.description}
-                icon={feature.icon}
-              />
-            ))}
-          </div>
-        </section>
-
-        <CallToAction
-          title="Ready to take the next step?"
-          buttonText="Browse All Scholarships"
-          onButtonClick={handleNavigateToScholarships}
-        />
-      </div>
+      <CallToAction
+        title="Ready to take the next step?"
+        buttonText="Browse All Scholarships"
+        onButtonClick={handleNavigateToScholarships}
+      />
+    </>
   );
 };
 
