@@ -1,12 +1,14 @@
-const errorHandler = (err, req, res, next) => {
-  console.log(err.stack);
-  let error = { ...err };
-  error.message = err.message;
+import { StatusCodes, getReasonPhrase } from "http-status-codes";
 
-  res.status(error.statusCode || 500).json({
-    success: false,
-    error: error.message || "Server Error",
+const errorHandler = (err, req, res, next) => {
+  req.logger?.error("Unhandled error", {
+    message: err.message,
+    stack: err.stack,
+  });
+
+  res.status(err.status || StatusCodes.INTERNAL_SERVER_ERROR).json({
+    error: err.message || getReasonPhrase(StatusCodes.INTERNAL_SERVER_ERROR),
   });
 };
 
-export default { errorHandler };
+export default errorHandler;

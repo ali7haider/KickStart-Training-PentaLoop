@@ -1,14 +1,14 @@
-import fs from "fs";
-import path from "path";
 import winston from "winston";
+import path from "path";
+import fs from "fs";
 
-const logDir = "logs";
+const { combine, timestamp, printf, colorize } = winston.format;
 
+// ✅ Ensure logs directory exists
+const logDir = path.join(process.cwd(), "logs");
 if (!fs.existsSync(logDir)) {
   fs.mkdirSync(logDir);
 }
-
-const { combine, timestamp, printf, colorize } = winston.format;
 
 const logFormat = printf(({ level, message, timestamp, stack, requestId, ...meta }) => {
   return `${timestamp} [${level}]${requestId ? ` [reqId:${requestId}]` : ""} : ${
@@ -37,10 +37,7 @@ const logger = winston.createLogger({
 });
 
 logger.stream = {
-  write: (message) => {
-    logger.info(message.trim());
-  },
+  write: (message) => logger.info(message.trim()),
 };
-
 
 export default logger;
