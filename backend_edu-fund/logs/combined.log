@@ -1,0 +1,9 @@
+2025-09-12 17:01:09 [[32minfo[39m] : API is listening on port 3000
+2025-09-12 17:01:12 [[32minfo[39m] : API is listening on port 3000
+2025-09-12 17:01:44 [[32minfo[39m] : API is listening on port 3000
+2025-09-12 17:02:04 [[32minfo[39m] : API is listening on port 3000
+2025-09-12 17:02:20 [[32minfo[39m] : Fetched scholarship by id
+2025-09-12 17:02:37 [[32minfo[39m] : Scholarship deleted
+2025-09-12 17:02:40 [[33mwarn[39m] : Scholarship with id 1 not found for deletion
+2025-09-12 17:05:16 [[32minfo[39m] : API is listening on port 3000
+2025-09-12 17:06:41 [[31merror[39m] : Failed to create scholarship: Missing fields
