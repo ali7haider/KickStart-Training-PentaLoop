@@ -1,8 +1,9 @@
 import express from "express";
 import morgan from "morgan";
 import scholarshipRoutes from "./routes/scholarshipRoutes.js";
+import applicationRoutes from "./routes/applicationRoutes.js"
 import logger from "./utils/logger.js";
-import { StatusCodes, getReasonPhrase } from "http-status-codes";
+import { StatusCodes } from "http-status-codes";
 import requestId from "./middleware/requestId.js";
 import errorHandler from "./middleware/errorHandler.js"; 
 import notFound from "./middleware/notFound.js";
@@ -24,6 +25,8 @@ app.use(
 );
 
 router.use("/scholarship", scholarshipRoutes);
+router.use("/application", applicationRoutes);
+
 app.use("/api", router);
 
 app.get("/", (req, res) => {

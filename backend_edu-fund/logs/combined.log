@@ -13,3 +13,49 @@
 2025-09-12 17:26:29 [[32minfo[39m] : API is listening on port 3000 
 2025-09-12 17:26:50 [[32minfo[39m] : API is listening on port 3000 
 2025-09-12 17:29:03 [[32minfo[39m] : API running in development mode on port 5000 
+2025-09-12 17:38:23 [[32minfo[39m] : API running in development mode on port 5000 
+2025-09-12 17:41:43 [[32minfo[39m] : API running in development mode on port 5000 
+2025-09-12 17:41:50 [[32minfo[39m] : API running in development mode on port 5000 
+2025-09-12 17:42:11 [[32minfo[39m] : API running in development mode on port 5000 
+2025-09-12 17:43:57 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-12 17:44:40 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-12 17:45:32 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-12 17:47:14 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-12 17:47:25 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-12 17:47:48 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-12 17:48:07 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-12 17:48:29 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-12 17:48:44 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-12 17:48:56 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-12 17:49:16 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-12 17:49:31 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-12 17:49:52 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-12 17:51:58 [[32minfo[39m] [reqId:65cd54af-1d45-4d2e-9d32-9722176cfbca] : Incoming request {"method":"GET","url":"/api/scholarship"}
+2025-09-12 17:51:58 [[32minfo[39m] [reqId:65cd54af-1d45-4d2e-9d32-9722176cfbca] : Fetched scholarships {"count":2}
+2025-09-12 17:51:58 [[32minfo[39m] : ::1 - - [12/Sep/2025:12:51:58 +0000] "GET /api/scholarship HTTP/1.1" 200 458 "-" "PostmanRuntime/7.43.3" 
+2025-09-12 17:53:21 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-12 17:53:33 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-12 17:53:47 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-12 17:54:14 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-12 17:54:27 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-12 17:54:44 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-12 17:54:51 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-12 17:56:44 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-12 17:56:56 [[32minfo[39m] [reqId:865a1290-1993-496c-afa9-4c4a275f0d12] : Incoming request {"method":"GET","url":"/api/application"}
+2025-09-12 17:56:56 [[31merror[39m] [reqId:865a1290-1993-496c-afa9-4c4a275f0d12] : ReferenceError: scholarships is not defined
+    at getAllApplication (file:///Users/eventhorizon12/Desktop/Ali%20Haider/KickStart-Training-PentaLoop/backend_edu-fund/controllers/applicationController.js:11:54)
+    at Layer.handleRequest (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/layer.js:152:17)
+    at /Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:295:15
+    at processParams (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:582:12)
+    at next (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:291:5)
+    at Function.handle (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:186:3) 
+2025-09-12 17:56:56 [[32minfo[39m] : ::1 - - [12/Sep/2025:12:56:56 +0000] "GET /api/application HTTP/1.1" 500 39 "-" "PostmanRuntime/7.43.3" 
+2025-09-12 17:57:25 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-12 17:57:28 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-12 17:57:32 [[32minfo[39m] [reqId:97aaa37e-c822-48cd-89e1-52da88d0493d] : Incoming request {"method":"GET","url":"/api/application"}
+2025-09-12 17:57:32 [[32minfo[39m] [reqId:97aaa37e-c822-48cd-89e1-52da88d0493d] : Fetched scholarships {"count":2}
+2025-09-12 17:57:32 [[32minfo[39m] : ::1 - - [12/Sep/2025:12:57:32 +0000] "GET /api/application HTTP/1.1" 200 579 "-" "PostmanRuntime/7.43.3" 
