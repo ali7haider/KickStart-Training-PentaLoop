@@ -7,10 +7,12 @@ import requestId from "./middleware/requestId.js";
 import errorHandler from "./middleware/errorHandler.js"; 
 import notFound from "./middleware/notFound.js";
 import requestLogger from "./middleware/requestLogger.js";
+import { port, nodeEnv } from "./config/environment.js";
+
+
 
 const app = express();
 const router = express.Router();
-const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 app.use(requestId);
@@ -31,6 +33,6 @@ app.use(notFound);
 
 app.use(errorHandler);
 
-app.listen(PORT, () => {
-  logger.info(`API is listening on port ${PORT}`);
+app.listen(port, () => {
+  logger.info(`API running in ${nodeEnv} mode on port ${port}`);
 });
