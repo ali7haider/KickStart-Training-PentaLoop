@@ -10,8 +10,10 @@ if (!fs.existsSync(logDir)) {
 
 const { combine, timestamp, printf, colorize } = winston.format;
 
-const logFormat = printf(({ level, message, timestamp, stack }) => {
-  return `${timestamp} [${level}] : ${stack || message}`;
+const logFormat = printf(({ level, message, timestamp, stack, requestId, ...meta }) => {
+  return `${timestamp} [${level}]${requestId ? ` [reqId:${requestId}]` : ""} : ${
+    stack || message
+  } ${Object.keys(meta).length ? JSON.stringify(meta) : ""}`;
 });
 
 const logger = winston.createLogger({
@@ -36,8 +38,9 @@ const logger = winston.createLogger({
 
 logger.stream = {
   write: (message) => {
-    logger.http ? logger.http(message.trim()) : logger.info(message.trim());
+    logger.info(message.trim());
   },
 };
+
 
 export default logger;

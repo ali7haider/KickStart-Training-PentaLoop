@@ -3,12 +3,19 @@ import morgan from "morgan";
 import scholarshipRoutes from "./routes/scholarshipRoutes.js";
 import logger from "./utils/logger.js";
 import { StatusCodes, getReasonPhrase } from "http-status-codes";
+import requestId from "./middleware/requestId.js";
 
 const app = express();
 const router = express.Router();
 const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
+app.use(requestId);
+app.use((req, res, next) => {
+  req.logger = logger.child({ requestId: req.id });
+  next();
+});
+
 app.use(
   morgan("combined", {
     stream: logger.stream,
@@ -23,13 +30,15 @@ app.get("/", (req, res) => {
 });
 
 app.use((req, res, next) => {
+  req.logger?.warn("Route not found", { url: req.originalUrl });
   res
     .status(StatusCodes.NOT_FOUND)
     .json({ error: getReasonPhrase(StatusCodes.NOT_FOUND) });
 });
 
+
 app.use((err, req, res, next) => {
-  logger.error("Unhandled error", { message: err.message, stack: err.stack });
+  req.logger?.error("Unhandled error", { message: err.message, stack: err.stack });
   res
     .status(err.status || StatusCodes.INTERNAL_SERVER_ERROR)
     .json({
