@@ -1,4 +1,6 @@
 import express from "express";
+import connectDB from "./config/db.js";
+
 import morgan from "morgan";
 import scholarshipRoutes from "./routes/scholarshipRoutes.js";
 import applicationRoutes from "./routes/applicationRoutes.js"
@@ -12,6 +14,7 @@ import requestLogger from "./middleware/requestLogger.js";
 import { port, nodeEnv } from "./config/environment.js";
 
 
+connectDB();
 
 const app = express();
 const router = express.Router();

@@ -57,3 +57,5 @@
     at Layer.handleRequest (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/layer.js:152:17) 
 2025-09-15 12:03:11 [[31merror[39m] [reqId:040027d1-0834-45bc-8973-80e0a90b22ae] : ReferenceError: token is not defined
     at login (file:///Users/eventhorizon12/Desktop/Ali%20Haider/KickStart-Training-PentaLoop/backend_edu-fund/controllers/authController.js:68:7) 
+2025-09-15 13:17:49 [[31merror[39m] : MongoDB connection error {"error":"connect ECONNREFUSED 127.0.0.1:27017"}
+2025-09-15 13:18:50 [[31merror[39m] : MongoDB connection error {"error":"connect ECONNREFUSED 127.0.0.1:27017"}
