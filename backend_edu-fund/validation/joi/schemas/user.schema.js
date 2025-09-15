@@ -1,5 +1,5 @@
 import Joi from "joi";
-import { regexPatterns } from "../constants/patterns.js";
+import { regexPatterns } from "../../constants/patterns.js";
 import { stringField, emailField } from "../utils/schemaUtils.js";
 
 export const registerUserSchema = Joi.object({
