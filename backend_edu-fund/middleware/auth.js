@@ -1,0 +1,26 @@
+import verifyToken from "../utils/verifyToken.js";
+import { StatusCodes, getReasonPhrase } from "http-status-codes";
+import logger from "../utils/logger.js";
+
+const auth = (req, res, next) => {
+  try {
+    const authHeader = req.headers.authorization || "";
+    const token = authHeader.startWith("Bearer ") ? authHeader.slice(7) : null;
+    if (!token) {
+      return res
+        .status(StatusCodes.UNAUTHORIZED)
+        .json({ error: getReasonPhrase(StatusCodes.UNAUTHORIZED) });
+    }
+    const decoded = verifyToken(token);
+    req.user = decoded;
+    req.logger.info("Auth Verified", { userId: decoded.id });
+    return next();
+  } catch (err) {
+    req.logger?.warn("Auth failed", { reason: err.message });
+    return res
+      .status(StatusCodes.UNAUTHORIZED)
+      .json({ error: getReasonPhrase(StatusCodes.UNAUTHORIZED) });
+  }
+};
+
+export default auth;

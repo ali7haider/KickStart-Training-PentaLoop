@@ -59,3 +59,195 @@
 2025-09-12 17:57:32 [[32minfo[39m] [reqId:97aaa37e-c822-48cd-89e1-52da88d0493d] : Incoming request {"method":"GET","url":"/api/application"}
 2025-09-12 17:57:32 [[32minfo[39m] [reqId:97aaa37e-c822-48cd-89e1-52da88d0493d] : Fetched scholarships {"count":2}
 2025-09-12 17:57:32 [[32minfo[39m] : ::1 - - [12/Sep/2025:12:57:32 +0000] "GET /api/application HTTP/1.1" 200 579 "-" "PostmanRuntime/7.43.3" 
+2025-09-15 11:16:25 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:18:36 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:18:53 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:19:01 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:19:24 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:19:36 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:21:17 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:21:46 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:21:59 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:24:09 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:24:23 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:24:49 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:24:58 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:25:05 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:25:24 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:25:31 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:26:09 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:26:40 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:26:51 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:26:55 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:28:06 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:28:12 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:28:36 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:28:53 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:29:15 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:29:25 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:31:05 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:31:26 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:32:02 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:32:18 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:32:21 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:32:33 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:32:53 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:33:05 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:33:25 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:34:38 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:34:54 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:34:58 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:35:08 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:35:16 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:35:22 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:35:32 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:35:46 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:35:53 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:36:04 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:36:14 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:36:26 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:37:00 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:37:40 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:37:56 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:38:14 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:38:39 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:38:55 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:39:12 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:39:19 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:39:36 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:39:46 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:40:05 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:40:10 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:40:50 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:40:59 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:41:13 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:41:19 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:41:30 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:41:49 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:41:56 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:42:03 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:42:14 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:42:20 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:42:27 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:42:38 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:42:56 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:43:08 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:43:12 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:43:15 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:43:18 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:43:36 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:43:50 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:43:59 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:44:02 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:44:16 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:45:33 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:45:39 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:46:07 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:46:18 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:46:36 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:46:51 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:47:09 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:47:27 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:47:46 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:48:02 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:48:16 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:48:29 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:48:57 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:49:02 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:49:10 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:49:17 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:49:30 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:49:39 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:49:43 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:49:56 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:55:49 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:55:57 [[32minfo[39m] [reqId:035c40fe-f8f8-4ee3-aa5b-6c9b8f509907] : Incoming request {"method":"POST","url":"/api/register"}
+2025-09-15 11:55:57 [[33mwarn[39m] [reqId:035c40fe-f8f8-4ee3-aa5b-6c9b8f509907] : Route not found {"url":"/api/register"}
+2025-09-15 11:55:57 [[32minfo[39m] : ::1 - - [15/Sep/2025:06:55:57 +0000] "POST /api/register HTTP/1.1" 404 21 "-" "PostmanRuntime/7.43.3" 
+2025-09-15 11:56:12 [[32minfo[39m] [reqId:21355174-8723-424b-ae52-fb23448f34ed] : Incoming request {"method":"POST","url":"/api/auth/register"}
+2025-09-15 11:56:12 [[32minfo[39m] : ::1 - - [15/Sep/2025:06:56:12 +0000] "POST /api/auth/register HTTP/1.1" 201 308 "-" "PostmanRuntime/7.43.3" 
+2025-09-15 11:56:33 [[32minfo[39m] [reqId:1eb76bc6-64b8-43fd-b3a9-bf33689d5234] : Incoming request {"method":"POST","url":"/api/auth/login"}
+2025-09-15 11:56:33 [[31merror[39m] [reqId:1eb76bc6-64b8-43fd-b3a9-bf33689d5234] : ReferenceError: err is not defined
+    at login (file:///Users/eventhorizon12/Desktop/Ali%20Haider/KickStart-Training-PentaLoop/backend_edu-fund/controllers/authController.js:74:10) 
+2025-09-15 11:56:33 [[32minfo[39m] : ::1 - - [15/Sep/2025:06:56:33 +0000] "POST /api/auth/login HTTP/1.1" 500 30 "-" "PostmanRuntime/7.43.3" 
+2025-09-15 11:56:54 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:56:55 [[32minfo[39m] [reqId:5fc70579-ee25-4b75-b61f-6fc5b615b682] : Incoming request {"method":"POST","url":"/api/auth/login"}
+2025-09-15 11:56:55 [[31merror[39m] [reqId:5fc70579-ee25-4b75-b61f-6fc5b615b682] : TypeError: Cannot read properties of undefined (reading 'password')
+    at login (file:///Users/eventhorizon12/Desktop/Ali%20Haider/KickStart-Training-PentaLoop/backend_edu-fund/controllers/authController.js:51:55)
+    at Layer.handleRequest (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/layer.js:152:17)
+    at /Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:295:15
+    at processParams (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:582:12)
+    at next (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:291:5)
+    at Function.handle (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:186:3) 
+2025-09-15 11:56:55 [[32minfo[39m] : ::1 - - [15/Sep/2025:06:56:55 +0000] "POST /api/auth/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.43.3" 
+2025-09-15 11:57:08 [[32minfo[39m] [reqId:99aed48d-1919-4534-8c87-5b90a321f125] : Incoming request {"method":"POST","url":"/api/auth/login"}
+2025-09-15 11:57:08 [[31merror[39m] [reqId:99aed48d-1919-4534-8c87-5b90a321f125] : TypeError: Cannot read properties of undefined (reading 'password')
+    at login (file:///Users/eventhorizon12/Desktop/Ali%20Haider/KickStart-Training-PentaLoop/backend_edu-fund/controllers/authController.js:51:55)
+    at Layer.handleRequest (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/layer.js:152:17)
+    at /Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:295:15
+    at processParams (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:582:12)
+    at next (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:291:5)
+    at Function.handle (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:186:3) 
+2025-09-15 11:57:08 [[32minfo[39m] : ::1 - - [15/Sep/2025:06:57:08 +0000] "POST /api/auth/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.43.3" 
+2025-09-15 11:57:24 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:58:17 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:58:37 [[32minfo[39m] [reqId:efb24604-6456-4abb-aed4-9490bc5ca708] : Incoming request {"method":"POST","url":"/api/auth/login"}
+2025-09-15 11:58:37 [[31merror[39m] [reqId:efb24604-6456-4abb-aed4-9490bc5ca708] : TypeError: Cannot read properties of undefined (reading 'password')
+    at login (file:///Users/eventhorizon12/Desktop/Ali%20Haider/KickStart-Training-PentaLoop/backend_edu-fund/controllers/authController.js:52:55)
+    at Layer.handleRequest (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/layer.js:152:17)
+    at /Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:295:15
+    at processParams (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:582:12)
+    at next (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:291:5)
+    at Function.handle (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:186:3) 
+2025-09-15 11:58:37 [[32minfo[39m] : ::1 - - [15/Sep/2025:06:58:37 +0000] "POST /api/auth/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.43.3" 
+2025-09-15 11:58:53 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:59:13 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:59:19 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:59:24 [[32minfo[39m] [reqId:346a04e1-a722-4330-bdf0-65c49c810c80] : Incoming request {"method":"POST","url":"/api/auth/login"}
+2025-09-15 11:59:24 [[31merror[39m] [reqId:346a04e1-a722-4330-bdf0-65c49c810c80] : Error: Illegal arguments: string, undefined
+    at _async (file:///Users/eventhorizon12/Desktop/Ali%20Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/bcryptjs/index.js:252:11)
+    at file:///Users/eventhorizon12/Desktop/Ali%20Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/bcryptjs/index.js:280:7
+    at new Promise (<anonymous>)
+    at Object.compare (file:///Users/eventhorizon12/Desktop/Ali%20Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/bcryptjs/index.js:279:12)
+    at login (file:///Users/eventhorizon12/Desktop/Ali%20Haider/KickStart-Training-PentaLoop/backend_edu-fund/controllers/authController.js:51:32)
+    at Layer.handleRequest (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/layer.js:152:17) 
+2025-09-15 11:59:24 [[32minfo[39m] : ::1 - - [15/Sep/2025:06:59:24 +0000] "POST /api/auth/login HTTP/1.1" 500 48 "-" "PostmanRuntime/7.43.3" 
+2025-09-15 11:59:40 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 11:59:42 [[32minfo[39m] [reqId:385c47de-53cd-4a4e-b278-c8bdefff4004] : Incoming request {"method":"POST","url":"/api/auth/login"}
+2025-09-15 11:59:42 [[32minfo[39m] : ::1 - - [15/Sep/2025:06:59:42 +0000] "POST /api/auth/login HTTP/1.1" 401 31 "-" "PostmanRuntime/7.43.3" 
+2025-09-15 12:00:48 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 12:00:53 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 12:01:00 [[32minfo[39m] [reqId:90978235-2dcd-4efe-8775-632c7af4e4c4] : Incoming request {"method":"POST","url":"/api/auth/login"}
+2025-09-15 12:01:00 [[32minfo[39m] : ::1 - - [15/Sep/2025:07:01:00 +0000] "POST /api/auth/login HTTP/1.1" 401 31 "-" "PostmanRuntime/7.43.3" 
+2025-09-15 12:01:31 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 12:02:31 [[32minfo[39m] [reqId:2ef5fafc-d7e7-45ea-bdc6-54b40333c278] : Incoming request {"method":"POST","url":"/api/auth/register"}
+2025-09-15 12:02:31 [[32minfo[39m] : ::1 - - [15/Sep/2025:07:02:31 +0000] "POST /api/auth/register HTTP/1.1" 409 31 "-" "PostmanRuntime/7.43.3" 
+2025-09-15 12:02:37 [[32minfo[39m] [reqId:ee118b64-50f4-484f-ae62-d8829512425c] : Incoming request {"method":"POST","url":"/api/auth/register"}
+2025-09-15 12:02:37 [[32minfo[39m] : ::1 - - [15/Sep/2025:07:02:37 +0000] "POST /api/auth/register HTTP/1.1" 201 310 "-" "PostmanRuntime/7.43.3" 
+2025-09-15 12:03:11 [[32minfo[39m] [reqId:040027d1-0834-45bc-8973-80e0a90b22ae] : Incoming request {"method":"POST","url":"/api/auth/login"}
+2025-09-15 12:03:11 [[31merror[39m] [reqId:040027d1-0834-45bc-8973-80e0a90b22ae] : ReferenceError: token is not defined
+    at login (file:///Users/eventhorizon12/Desktop/Ali%20Haider/KickStart-Training-PentaLoop/backend_edu-fund/controllers/authController.js:68:7) 
+2025-09-15 12:03:11 [[32minfo[39m] : ::1 - - [15/Sep/2025:07:03:11 +0000] "POST /api/auth/login HTTP/1.1" 500 32 "-" "PostmanRuntime/7.43.3" 
+2025-09-15 12:04:37 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 12:04:40 [[32minfo[39m] [reqId:d8b75258-b03f-49ce-931b-f67d730bd59f] : Incoming request {"method":"POST","url":"/api/auth/login"}
+2025-09-15 12:04:40 [[32minfo[39m] : ::1 - - [15/Sep/2025:07:04:40 +0000] "POST /api/auth/login HTTP/1.1" 401 31 "-" "PostmanRuntime/7.43.3" 
+2025-09-15 12:04:50 [[32minfo[39m] [reqId:7df173f5-fd18-45c7-906c-c51e54c0a8dc] : Incoming request {"method":"POST","url":"/api/auth/register"}
+2025-09-15 12:04:50 [[32minfo[39m] : ::1 - - [15/Sep/2025:07:04:50 +0000] "POST /api/auth/register HTTP/1.1" 201 310 "-" "PostmanRuntime/7.43.3" 
+2025-09-15 12:04:56 [[32minfo[39m] [reqId:67194e98-9c1c-4f54-875e-24e2c802b50f] : Incoming request {"method":"POST","url":"/api/auth/login"}
+2025-09-15 12:04:56 [[32minfo[39m] : ::1 - - [15/Sep/2025:07:04:56 +0000] "POST /api/auth/login HTTP/1.1" 200 310 "-" "PostmanRuntime/7.43.3" 
