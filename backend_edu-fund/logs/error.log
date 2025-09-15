@@ -59,3 +59,10 @@
     at login (file:///Users/eventhorizon12/Desktop/Ali%20Haider/KickStart-Training-PentaLoop/backend_edu-fund/controllers/authController.js:68:7) 
 2025-09-15 13:17:49 [[31merror[39m] : MongoDB connection error {"error":"connect ECONNREFUSED 127.0.0.1:27017"}
 2025-09-15 13:18:50 [[31merror[39m] : MongoDB connection error {"error":"connect ECONNREFUSED 127.0.0.1:27017"}
+2025-09-15 16:32:43 [[31merror[39m] [reqId:bb0905f2-0066-4997-a548-e7326ad3e41c] : TypeError: bcrypt.salt is not a function
+    at model.<anonymous> (file:///Users/eventhorizon12/Desktop/Ali%20Haider/KickStart-Training-PentaLoop/backend_edu-fund/models/user.js:30:29)
+    at callMiddlewareFunction (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/kareem/index.js:628:27)
+    at model.next (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/kareem/index.js:93:7)
+    at _next (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/kareem/index.js:146:10)
+    at /Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/kareem/index.js:653:30
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11) 

@@ -302,3 +302,48 @@
 2025-09-15 13:18:50 [[31merror[39m] : MongoDB connection error {"error":"connect ECONNREFUSED 127.0.0.1:27017"}
 2025-09-15 15:33:51 [[32minfo[39m] : API running in development mode on port 3000 
 2025-09-15 15:33:51 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-15 16:07:45 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 16:07:45 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-15 16:08:48 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 16:08:48 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-15 16:14:12 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 16:14:12 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-15 16:19:13 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 16:19:13 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-15 16:20:03 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 16:20:03 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-15 16:20:24 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 16:20:24 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-15 16:23:14 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 16:23:14 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-15 16:30:44 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 16:30:44 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-15 16:31:22 [[32minfo[39m] [reqId:ab854e77-0a0f-4466-bc8a-f2280bd66554] : Incoming request {"method":"POST","url":"/api/user"}
+2025-09-15 16:31:22 [[33mwarn[39m] [reqId:ab854e77-0a0f-4466-bc8a-f2280bd66554] : Route not found {"url":"/api/user"}
+2025-09-15 16:31:22 [[32minfo[39m] : ::1 - - [15/Sep/2025:11:31:22 +0000] "POST /api/user HTTP/1.1" 404 21 "-" "PostmanRuntime/7.43.3" 
+2025-09-15 16:32:06 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 16:32:06 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-15 16:32:17 [[32minfo[39m] [reqId:08456c80-76b9-46c9-9868-ffd943231967] : Incoming request {"method":"POST","url":"/api/user"}
+2025-09-15 16:32:17 [[33mwarn[39m] [reqId:08456c80-76b9-46c9-9868-ffd943231967] : Route not found {"url":"/api/user"}
+2025-09-15 16:32:17 [[32minfo[39m] : ::1 - - [15/Sep/2025:11:32:17 +0000] "POST /api/user HTTP/1.1" 404 21 "-" "PostmanRuntime/7.43.3" 
+2025-09-15 16:32:43 [[32minfo[39m] [reqId:bb0905f2-0066-4997-a548-e7326ad3e41c] : Incoming request {"method":"POST","url":"/api/auth/register"}
+2025-09-15 16:32:43 [[31merror[39m] [reqId:bb0905f2-0066-4997-a548-e7326ad3e41c] : TypeError: bcrypt.salt is not a function
+    at model.<anonymous> (file:///Users/eventhorizon12/Desktop/Ali%20Haider/KickStart-Training-PentaLoop/backend_edu-fund/models/user.js:30:29)
+    at callMiddlewareFunction (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/kareem/index.js:628:27)
+    at model.next (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/kareem/index.js:93:7)
+    at _next (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/kareem/index.js:146:10)
+    at /Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/kareem/index.js:653:30
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11) 
+2025-09-15 16:32:43 [[32minfo[39m] : ::1 - - [15/Sep/2025:11:32:43 +0000] "POST /api/auth/register HTTP/1.1" 500 41 "-" "PostmanRuntime/7.43.3" 
+2025-09-15 16:33:07 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 16:33:07 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-15 16:33:49 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 16:33:49 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-15 16:33:51 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 16:33:51 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-15 16:33:59 [[32minfo[39m] [reqId:aaadf55d-4627-4e95-ae90-f4feee2a0ec4] : Incoming request {"method":"POST","url":"/api/auth/register"}
+2025-09-15 16:33:59 [[32minfo[39m] : ::1 - - [15/Sep/2025:11:33:59 +0000] "POST /api/auth/register HTTP/1.1" 201 339 "-" "PostmanRuntime/7.43.3" 
+2025-09-15 16:36:40 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 16:36:40 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-15 17:29:40 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 17:29:40 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
