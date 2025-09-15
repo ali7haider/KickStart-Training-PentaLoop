@@ -347,3 +347,35 @@
 2025-09-15 16:36:40 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
 2025-09-15 17:29:40 [[32minfo[39m] : API running in development mode on port 3000 
 2025-09-15 17:29:40 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-15 17:48:43 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 17:48:43 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-15 17:49:07 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 17:49:07 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-15 17:49:38 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 17:49:38 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-15 17:49:40 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 17:49:40 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-15 17:50:17 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 17:50:17 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-15 17:50:22 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 17:50:22 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-15 17:50:54 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 17:50:54 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-15 17:51:03 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 17:51:03 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-15 17:51:53 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 17:51:53 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-15 17:51:56 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 17:51:56 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-15 17:56:09 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 17:56:09 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-15 17:56:12 [[32minfo[39m] [reqId:b77786d3-7dec-410f-bdbc-6f596c244819] : Incoming request {"method":"POST","url":"/api/auth/register"}
+2025-09-15 17:56:12 [[32minfo[39m] : ::1 - - [15/Sep/2025:12:56:12 +0000] "POST /api/auth/register HTTP/1.1" 400 261 "-" "PostmanRuntime/7.43.3" 
+2025-09-15 17:57:55 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 17:57:55 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-15 17:57:58 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 17:57:58 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-15 17:58:03 [[32minfo[39m] [reqId:bfbee0c3-d991-4c2a-b0fc-58447a7d7010] : Incoming request {"method":"POST","url":"/api/auth/register"}
+2025-09-15 17:58:03 [[32minfo[39m] : ::1 - - [15/Sep/2025:12:58:03 +0000] "POST /api/auth/register HTTP/1.1" 400 157 "-" "PostmanRuntime/7.43.3" 
+2025-09-15 17:58:13 [[32minfo[39m] [reqId:252762ac-89f8-4290-b71c-e114b2d536a2] : Incoming request {"method":"POST","url":"/api/auth/register"}
+2025-09-15 17:58:13 [[32minfo[39m] : ::1 - - [15/Sep/2025:12:58:13 +0000] "POST /api/auth/register HTTP/1.1" 201 341 "-" "PostmanRuntime/7.43.3" 
