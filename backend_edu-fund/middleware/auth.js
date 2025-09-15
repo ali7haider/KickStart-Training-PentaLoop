@@ -1,11 +1,16 @@
-import verifyToken from "../utils/verifyToken.js";
+import { verifyToken } from "./jwt.js";
 import { StatusCodes, getReasonPhrase } from "http-status-codes";
-import logger from "../utils/logger.js";
 
 const auth = (req, res, next) => {
   try {
     const authHeader = req.headers.authorization || "";
-    const token = authHeader.startWith("Bearer ") ? authHeader.slice(7) : null;
+    if (!authHeader || !authHeader.startsWith("Bearer ")) {
+      return res
+        .status(StatusCodes.UNAUTHORIZED)
+        .json({ error: "No token provided" });
+    }
+    const token = authHeader.split(" ")[1];
+
     if (!token) {
       return res
         .status(StatusCodes.UNAUTHORIZED)

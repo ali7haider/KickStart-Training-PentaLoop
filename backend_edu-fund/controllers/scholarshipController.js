@@ -24,6 +24,7 @@ export const createScholarship = (req, res) => {
       .status(StatusCodes.BAD_REQUEST)
       .json({ error: getReasonPhrase(StatusCodes.BAD_REQUEST) });
   }
+  const userId = req.user?.id;
 
   const newScholarship = {
     id: uuidv4(),
@@ -32,6 +33,9 @@ export const createScholarship = (req, res) => {
     amount,
     deadline,
     eligibility,
+    createdBy: userId || "admin",
+    createdByEmail: req.user?.email || "admin@example.com",
+    createdAt: new Date().toISOString(),
   };
 
   scholarships.push(newScholarship);

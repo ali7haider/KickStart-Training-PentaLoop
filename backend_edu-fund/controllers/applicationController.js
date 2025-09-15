@@ -10,3 +10,4 @@ export const getAllApplication=(req,res)=>{
     req.logger.info("Fetched scholarships", { count: applications.length });
     res.status(StatusCodes.OK).json(applications);
 }
+

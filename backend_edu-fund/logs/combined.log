@@ -251,3 +251,33 @@
 2025-09-15 12:04:50 [[32minfo[39m] : ::1 - - [15/Sep/2025:07:04:50 +0000] "POST /api/auth/register HTTP/1.1" 201 310 "-" "PostmanRuntime/7.43.3" 
 2025-09-15 12:04:56 [[32minfo[39m] [reqId:67194e98-9c1c-4f54-875e-24e2c802b50f] : Incoming request {"method":"POST","url":"/api/auth/login"}
 2025-09-15 12:04:56 [[32minfo[39m] : ::1 - - [15/Sep/2025:07:04:56 +0000] "POST /api/auth/login HTTP/1.1" 200 310 "-" "PostmanRuntime/7.43.3" 
+2025-09-15 12:07:13 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 12:08:59 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 12:09:08 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 12:09:47 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 12:09:56 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 12:12:16 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 12:12:47 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 12:13:16 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 12:13:47 [[32minfo[39m] [reqId:508b32f7-bae1-403a-8c32-c09d8effb671] : Incoming request {"method":"POST","url":"/api/scholarship"}
+2025-09-15 12:13:47 [[33mwarn[39m] [reqId:508b32f7-bae1-403a-8c32-c09d8effb671] : Auth failed {"reason":"authHeader.startWith is not a function"}
+2025-09-15 12:13:47 [[32minfo[39m] : ::1 - - [15/Sep/2025:07:13:47 +0000] "POST /api/scholarship HTTP/1.1" 401 24 "-" "PostmanRuntime/7.43.3" 
+2025-09-15 12:15:26 [[32minfo[39m] [reqId:1864ebde-de6d-46ed-9ee6-5f69b0d1951f] : Incoming request {"method":"POST","url":"/api/auth/register"}
+2025-09-15 12:15:26 [[32minfo[39m] : ::1 - - [15/Sep/2025:07:15:26 +0000] "POST /api/auth/register HTTP/1.1" 409 31 "-" "PostmanRuntime/7.43.3" 
+2025-09-15 12:15:32 [[32minfo[39m] [reqId:11c3c9f5-c7f9-48d4-bb07-baac7e2a12b7] : Incoming request {"method":"POST","url":"/api/auth/register"}
+2025-09-15 12:15:32 [[32minfo[39m] : ::1 - - [15/Sep/2025:07:15:32 +0000] "POST /api/auth/register HTTP/1.1" 201 310 "-" "PostmanRuntime/7.43.3" 
+2025-09-15 12:17:30 [[32minfo[39m] [reqId:c2c58b01-75df-4405-b6ea-fea0b2c121c9] : Incoming request {"method":"POST","url":"/api/scholarship"}
+2025-09-15 12:17:30 [[33mwarn[39m] [reqId:c2c58b01-75df-4405-b6ea-fea0b2c121c9] : Auth failed {"reason":"authHeader.startWith is not a function"}
+2025-09-15 12:17:30 [[32minfo[39m] : ::1 - - [15/Sep/2025:07:17:30 +0000] "POST /api/scholarship HTTP/1.1" 401 24 "-" "PostmanRuntime/7.43.3" 
+2025-09-15 12:18:45 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 12:18:51 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 12:19:03 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 12:19:09 [[32minfo[39m] [reqId:e2f5f59d-10e6-43cb-8460-86ab9e6827d9] : Incoming request {"method":"POST","url":"/api/scholarship"}
+2025-09-15 12:19:09 [[32minfo[39m] [reqId:e2f5f59d-10e6-43cb-8460-86ab9e6827d9] : Auth Verified {"userId":"862e7a6b-fb1b-47bd-9e9a-6ab3cdb1902b"}
+2025-09-15 12:19:09 [[32minfo[39m] [reqId:e2f5f59d-10e6-43cb-8460-86ab9e6827d9] : Scholarship created {"id":"209ab9c7-fd32-4461-86df-a0405f0e022f","title":"AI Research Grant"}
+2025-09-15 12:19:09 [[32minfo[39m] : ::1 - - [15/Sep/2025:07:19:09 +0000] "POST /api/scholarship HTTP/1.1" 201 258 "-" "PostmanRuntime/7.43.3" 
+2025-09-15 12:19:59 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-15 12:20:03 [[32minfo[39m] [reqId:f990b0eb-78e1-4954-9a08-5eb8c32f466c] : Incoming request {"method":"POST","url":"/api/scholarship"}
+2025-09-15 12:20:03 [[32minfo[39m] [reqId:f990b0eb-78e1-4954-9a08-5eb8c32f466c] : Auth Verified {"userId":"862e7a6b-fb1b-47bd-9e9a-6ab3cdb1902b"}
+2025-09-15 12:20:03 [[32minfo[39m] [reqId:f990b0eb-78e1-4954-9a08-5eb8c32f466c] : Scholarship created {"id":"7569669f-3fd9-4bef-9724-b3bda6b5f100","title":"AI Research Grant"}
+2025-09-15 12:20:03 [[32minfo[39m] : ::1 - - [15/Sep/2025:07:20:03 +0000] "POST /api/scholarship HTTP/1.1" 201 292 "-" "PostmanRuntime/7.43.3" 

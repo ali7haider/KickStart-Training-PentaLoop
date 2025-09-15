@@ -7,5 +7,4 @@ router.
 route("/")
 .get(applicationController.getAllApplication)
 
-
 export default router;
