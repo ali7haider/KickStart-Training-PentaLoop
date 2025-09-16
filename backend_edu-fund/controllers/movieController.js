@@ -1,14 +1,28 @@
 import Movie from "../models/movie.js";
 import { StatusCodes } from "http-status-codes";
+import {
+  buildMovieFilter,
+  buildMovieSort,
+  getPaginationParams,
+} from "../utils/queryHelpers.js";
+
 export const getMoviesCustom = async (req, res) => {
-  const page = parseInt(req.query.page) || 1;
-  const limit = parseInt(req.query.limit) || 10;
-  const offset = (page - 1) * limit;
+  const filter = buildMovieFilter(req.query);
+  const sort = buildMovieSort(req.query);
+  const { page, limit, offset } = getPaginationParams(req.query);
 
   const [movies, totalMovies] = await Promise.all([
-    Movie.find().skip(offset).limit(limit).exec(),
-    Movie.countDocuments().exec(),
+    Movie.find(filter).sort(sort).skip(offset).limit(limit).exec(),
+    Movie.countDocuments(filter).exec(),
   ]);
+
+  req.logger.info("Fetched movies (custom pagination)", {
+    count: movies.length,
+    totalMovies,
+    page,
+    limit,
+  });
+
   return res.status(StatusCodes.OK).json({
     movies,
     totalPages: Math.ceil(totalMovies / limit),
@@ -18,15 +32,20 @@ export const getMoviesCustom = async (req, res) => {
 };
 
 export const getMoviesLibrary = async (req, res) => {
-  const page = parseInt(req.query.page) || 1;
-  const limit = parseInt(req.query.limit) || 10;
-  const options = {
-    page: page,
-    limit: limit,
-  };
-  const filter = {};
+  const filter = buildMovieFilter(req.query);
+  const sort = buildMovieSort(req.query);
+  const { page, limit } = getPaginationParams(req.query);
 
+  const options = { page, limit, sort };
   const result = await Movie.paginate(filter, options);
+
+  req.logger.info("Fetched movies (library pagination)", {
+    count: result.docs.length,
+    totalMovies: result.totalDocs,
+    page: result.page,
+    limit: result.limit,
+  });
+
   return res.status(StatusCodes.OK).json({
     movies: result.docs,
     pagination: {

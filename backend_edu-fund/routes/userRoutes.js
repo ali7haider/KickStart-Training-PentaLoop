@@ -7,11 +7,11 @@ import { registerUserSchema, loginUserSchema, validateRequest } from "../validat
 import { registerValidation, loginValidation,validate } from "../validation/expressValidator/index.js";
 
 // Joi Implementation
-// router.post('/register', validateRequest(registerUserSchema), register);
-// router.post('/login', validateRequest(loginUserSchema), login);
+router.post('/joi/register', validateRequest(registerUserSchema), register);
+router.post('/joi/login', validateRequest(loginUserSchema), login);
 
 // Express Validator Implementation
-router.post("/register", registerValidation, validate, register);
-router.post("/login", loginValidation, validate, login);
+router.post("/express/register", registerValidation, validate, register);
+router.post("/express/login", loginValidation, validate, login);
 
 export default router;
