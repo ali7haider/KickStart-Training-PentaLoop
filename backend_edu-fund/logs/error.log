@@ -66,3 +66,25 @@
     at _next (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/kareem/index.js:146:10)
     at /Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/kareem/index.js:653:30
     at process.processTicksAndRejections (node:internal/process/task_queues:85:11) 
+2025-09-16 11:05:45 [[31merror[39m] [reqId:cbe2264b-6885-47fd-8083-93f527e2c9fa] : ReferenceError: filter is not defined
+    at getMoviesLibrary (file:///Users/eventhorizon12/Desktop/Ali%20Haider/KickStart-Training-PentaLoop/backend_edu-fund/controllers/movieController.js:27:10)
+    at Layer.handleRequest (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/layer.js:152:17)
+    at /Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:295:15
+    at processParams (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:582:12)
+    at next (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:291:5)
+    at Function.handle (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:186:3) 
+2025-09-16 11:06:03 [[31merror[39m] [reqId:d2a23de9-5593-46a2-a8dc-f23c4e6b57b2] : ReferenceError: TestSeries is not defined
+    at getMoviesLibrary (file:///Users/eventhorizon12/Desktop/Ali%20Haider/KickStart-Training-PentaLoop/backend_edu-fund/controllers/movieController.js:29:18)
+    at Layer.handleRequest (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/layer.js:152:17)
+    at /Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:295:15
+    at processParams (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:582:12)
+    at next (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:291:5)
+    at Function.handle (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:186:3) 

@@ -411,3 +411,145 @@
 2025-09-15 18:32:27 [[32minfo[39m] : ::1 - - [15/Sep/2025:13:32:27 +0000] "POST /api/auth/register HTTP/1.1" 400 48 "-" "PostmanRuntime/7.43.3" 
 2025-09-15 18:32:31 [[32minfo[39m] [reqId:3d489940-cdda-4069-a6e0-e9edb9b0f296] : Incoming request {"method":"POST","url":"/api/auth/register"}
 2025-09-15 18:32:31 [[32minfo[39m] : ::1 - - [15/Sep/2025:13:32:31 +0000] "POST /api/auth/register HTTP/1.1" 409 31 "-" "PostmanRuntime/7.43.3" 
+2025-09-16 10:22:55 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:22:55 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:23:11 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:23:11 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:23:25 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:23:25 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:23:28 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:23:28 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:24:35 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:24:35 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:24:48 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:24:48 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:24:57 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:24:57 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:26:07 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:26:07 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:26:10 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:26:10 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:26:25 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:26:25 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:27:47 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:27:47 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:28:04 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:28:04 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:28:46 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:28:46 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:29:03 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:29:03 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:29:17 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:29:17 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:38:13 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:38:13 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:38:47 [[32minfo[39m] [reqId:876709d4-b9ba-41c1-9fc1-6b5840fc243e] : Incoming request {"method":"GET","url":"/api/movies/custom"}
+2025-09-16 10:38:47 [[32minfo[39m] : ::1 - - [16/Sep/2025:05:38:47 +0000] "GET /api/movies/custom HTTP/1.1" 200 24 "-" "PostmanRuntime/7.43.3" 
+2025-09-16 10:38:51 [[32minfo[39m] [reqId:efe9017e-4d45-456a-aaa1-a8c51622edb7] : Incoming request {"method":"GET","url":"/api/movies/library"}
+2025-09-16 10:38:51 [[32minfo[39m] : ::1 - - [16/Sep/2025:05:38:51 +0000] "GET /api/movies/library HTTP/1.1" 200 45 "-" "PostmanRuntime/7.43.3" 
+2025-09-16 10:44:24 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:44:24 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:45:44 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:45:44 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:45:47 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:45:47 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:46:07 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:46:07 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:47:15 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:47:15 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:47:42 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:47:42 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:47:47 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:47:47 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:47:58 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:47:58 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:48:07 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:48:07 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:48:15 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:48:15 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:48:21 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:48:21 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:49:04 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:49:04 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:49:34 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:49:34 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:49:43 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:49:43 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:50:09 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:50:09 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:50:25 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:50:25 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:50:37 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:50:37 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:50:51 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:50:51 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:50:58 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:50:58 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:51:02 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:51:02 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:51:13 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:51:13 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:51:24 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 10:51:24 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 10:51:35 [[32minfo[39m] [reqId:e61dbd97-71b1-49fd-b5e1-999e23743376] : Incoming request {"method":"GET","url":"/api/movies/custom"}
+2025-09-16 10:51:35 [[32minfo[39m] : ::1 - - [16/Sep/2025:05:51:35 +0000] "GET /api/movies/custom HTTP/1.1" 200 1622 "-" "PostmanRuntime/7.43.3" 
+2025-09-16 10:58:31 [[32minfo[39m] [reqId:6d4912bd-320f-45f6-bb7f-03d8b7eff5fb] : Incoming request {"method":"GET","url":"/api/movies/custom?page=2&limit=4"}
+2025-09-16 10:58:31 [[32minfo[39m] : ::1 - - [16/Sep/2025:05:58:31 +0000] "GET /api/movies/custom?page=2&limit=4 HTTP/1.1" 200 653 "-" "PostmanRuntime/7.43.3" 
+2025-09-16 11:00:08 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 11:00:08 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 11:01:04 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 11:01:04 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 11:03:02 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 11:03:02 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 11:03:51 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 11:03:51 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 11:04:04 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 11:04:04 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 11:04:37 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 11:04:37 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 11:04:56 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 11:04:56 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 11:05:06 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 11:05:06 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 11:05:13 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 11:05:13 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 11:05:17 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 11:05:17 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 11:05:26 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 11:05:26 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 11:05:45 [[32minfo[39m] [reqId:cbe2264b-6885-47fd-8083-93f527e2c9fa] : Incoming request {"method":"GET","url":"/api/movies/library?page=2&limit=4"}
+2025-09-16 11:05:45 [[31merror[39m] [reqId:cbe2264b-6885-47fd-8083-93f527e2c9fa] : ReferenceError: filter is not defined
+    at getMoviesLibrary (file:///Users/eventhorizon12/Desktop/Ali%20Haider/KickStart-Training-PentaLoop/backend_edu-fund/controllers/movieController.js:27:10)
+    at Layer.handleRequest (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/layer.js:152:17)
+    at /Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:295:15
+    at processParams (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:582:12)
+    at next (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:291:5)
+    at Function.handle (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:186:3) 
+2025-09-16 11:05:45 [[32minfo[39m] : ::1 - - [16/Sep/2025:06:05:45 +0000] "GET /api/movies/library?page=2&limit=4 HTTP/1.1" 500 33 "-" "PostmanRuntime/7.43.3" 
+2025-09-16 11:06:02 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 11:06:02 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 11:06:03 [[32minfo[39m] [reqId:d2a23de9-5593-46a2-a8dc-f23c4e6b57b2] : Incoming request {"method":"GET","url":"/api/movies/library?page=2&limit=4"}
+2025-09-16 11:06:03 [[31merror[39m] [reqId:d2a23de9-5593-46a2-a8dc-f23c4e6b57b2] : ReferenceError: TestSeries is not defined
+    at getMoviesLibrary (file:///Users/eventhorizon12/Desktop/Ali%20Haider/KickStart-Training-PentaLoop/backend_edu-fund/controllers/movieController.js:29:18)
+    at Layer.handleRequest (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/lib/layer.js:152:17)
+    at /Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:295:15
+    at processParams (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:582:12)
+    at next (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:291:5)
+    at Function.handle (/Users/eventhorizon12/Desktop/Ali Haider/KickStart-Training-PentaLoop/backend_edu-fund/node_modules/router/index.js:186:3) 
+2025-09-16 11:06:03 [[32minfo[39m] : ::1 - - [16/Sep/2025:06:06:03 +0000] "GET /api/movies/library?page=2&limit=4 HTTP/1.1" 500 37 "-" "PostmanRuntime/7.43.3" 
+2025-09-16 11:06:16 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 11:06:16 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 
+2025-09-16 11:06:19 [[32minfo[39m] [reqId:936dda06-547a-45a7-9d05-32c8fa6e61ea] : Incoming request {"method":"GET","url":"/api/movies/library?page=2&limit=4"}
+2025-09-16 11:06:19 [[32minfo[39m] : ::1 - - [16/Sep/2025:06:06:19 +0000] "GET /api/movies/library?page=2&limit=4 HTTP/1.1" 200 748 "-" "PostmanRuntime/7.43.3" 
+2025-09-16 11:06:38 [[32minfo[39m] [reqId:a39cb005-5728-46d1-99cf-5cb5a69701f4] : Incoming request {"method":"GET","url":"/api/movies/library?page=1&limit=30"}
+2025-09-16 11:06:38 [[32minfo[39m] : ::1 - - [16/Sep/2025:06:06:38 +0000] "GET /api/movies/library?page=1&limit=30 HTTP/1.1" 200 4507 "-" "PostmanRuntime/7.43.3" 
+2025-09-16 11:06:53 [[32minfo[39m] : API running in development mode on port 3000 
+2025-09-16 11:06:53 [[32minfo[39m] : MongoDB Connected: 127.0.0.1 in development mode 

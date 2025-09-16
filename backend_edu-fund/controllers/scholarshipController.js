@@ -1,7 +1,6 @@
 import { v4 as uuidv4 } from "uuid";
 import scholarships from "../models/scholarship.js";
 import { StatusCodes, getReasonPhrase } from "http-status-codes";
-import logger from "../utils/logger.js";
 
 export const getAllScholarship = (req, res) => {
   if (!scholarships.length) {

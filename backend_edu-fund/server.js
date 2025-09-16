@@ -5,6 +5,7 @@ import morgan from "morgan";
 import scholarshipRoutes from "./routes/scholarshipRoutes.js";
 import applicationRoutes from "./routes/applicationRoutes.js"
 import userRoutes from "./routes/userRoutes.js"
+import moviesRoutes from "./routes/movieRoutes.js";
 import logger from "./utils/logger.js";
 import { StatusCodes } from "http-status-codes";
 import requestId from "./middleware/requestId.js";
@@ -31,6 +32,8 @@ app.use(
 router.use("/auth",userRoutes)
 router.use("/scholarship", scholarshipRoutes);
 router.use("/application", applicationRoutes);
+router.use("/movies", moviesRoutes);
+
 
 app.use("/api", router);
 
